@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="iam" method="get">
+        <label for="name"><b>이름</b></label>
+        <input type="text"><br/><br/>
+
+        <label for="sex"><b>성별</b></label><br/>
+        <input type="radio" value="sex" name="sex">남자 <br/>
+        <input type="radio" value="sex" name="sex">여자 
+        <br/><br/>
+
+        <label for="food"><b>좋아하는 음식</b></label><br/>
+        <input type="checkbox" value="salad">샐러드<br/>
+        <input type="checkbox" value="bread">빵<br/>
+        <input type="checkbox" value="latte">라떼<br/><br/>
+
+        <b>전화번호</b> <input type="tel" id="tel" name="phone" placeholder='010-1234-5678' pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"><br/><br/>
+        <b>이메일</b> <input type="email" id="email" name="email" placeholder="이메일 입력"><br/><br/>
+
+        <button type="submit" value="제출">제출</button>
+</body>
+</html>
